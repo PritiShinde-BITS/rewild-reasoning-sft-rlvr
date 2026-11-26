@@ -1,0 +1,88 @@
+{
+  "tag": "grpo_validation_2",
+  "n": 4,
+  "accuracy": 0.0,
+  "strict_accuracy": 0.0,
+  "format_rate": 0.0,
+  "extraction_rate": 0.0,
+  "truncation_rate": 0.25,
+  "reasoning_tag_rate": 0.0,
+  "by_type": {
+    "gf": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfr": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfrx": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfx": {
+      "n": 1,
+      "accuracy": 0.0
+    }
+  },
+  "nonoverlap_n": 0,
+  "nonoverlap_accuracy": null,
+  "examples": [
+    {
+      "id": "f043fef392a3fb8432ef",
+      "gold": "4",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfrx",
+      "nonoverlap": null,
+      "tokens": 108,
+      "truncated": false,
+      "response": "1. The number of people who tried to park in the lot without paying is 32\n2. In 10 years, Zion's dad will be 26 years older than him.\n3. The statement \"The economy of Country Y is recovering from a downturn that affected both Country Y and Country X.\", if true, most helps explain the discrepancy in the relationships described by the economist.\n4. \"James is not provided with souvenirs.\" is Uncertain to the passage above\n\n### Final answer: 4"
+    },
+    {
+      "id": "759842ad64882a460b39",
+      "gold": "3",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfr",
+      "nonoverlap": null,
+      "tokens": 113,
+      "truncated": false,
+      "response": "1. The reasoning in the argument above is most closely paralleled by the reasoning in \"Marissa is just tall enough that she can touch the ceiling when she jumps as high as she can, and since Jeff is taller than Marissa, he too must be able to touch the ceiling when he jumps.\"\n2. \"Jumbo is not sleepy.\" Contradicts the passage above\n3. Her average score is 91\n\n### Final Answer\nThe correct statement is: 2. \"Jumbo is not sleepy.\" Contradicts the passage above"
+    },
+    {
+      "id": "957d7cc64216d68aae5e",
+      "gold": "1",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfx",
+      "nonoverlap": null,
+      "tokens": 192,
+      "truncated": true,
+      "response": "1. \"Sam is a big fan of pop bands and singers.\" is Uncertain to the passage above\n   - Reasoning: The passage does not provide any information about Sam's interests or preferences, so we cannot determine if Sam is a big fan of pop bands and singers.\n   - Final answer: 1\n\n2. \"John Evans Popularized the term paalstab.\" Agrees with the passage above\n   - Reasoning: The passage mentions that John Evans popularized the term \"palstave,\" which is a bronze digging shovel. This does not directly mention \"palstave,\" but it does mention \"palstave\" in the context of palstaves, which are early bronze axes. Therefore, the statement is partially correct but not entirely accurate.\n   - Final answer: 2\n\n3. Diana will get 75 more minutes of video game time as a result of her raise.\n   - Reasoning: The"
+    },
+    {
+      "id": "12a8d0179bf79758e5bd",
+      "gold": "2",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gf",
+      "nonoverlap": null,
+      "tokens": 40,
+      "truncated": false,
+      "response": "1. 163 invited students attended the party\n2. \"Harkness is not a Yale dormitory.\" is Uncertain to the passage above\n\n### Final answer: 1"
+    }
+  ]
+}

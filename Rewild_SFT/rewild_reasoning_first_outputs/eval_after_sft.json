@@ -1,0 +1,60 @@
+{
+  "tag": "AFTER SFT",
+  "n": 4,
+  "accuracy": 0.0,
+  "answer_extraction_rate": 0.0,
+  "reasoning_tag_rate": 0.0,
+  "mean_verified_result_fraction": null,
+  "n_process_verified": 0,
+  "truncation_rate": 0.25,
+  "examples": [
+    {
+      "prediction": null,
+      "gold": "1",
+      "correct": false,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 297,
+      "at_token_limit": false,
+      "stopped_on_answer": false,
+      "seconds": 8.6,
+      "response": "1. **Statement 1**: If the city is 42 miles across, it will take 140 minutes for the fog to cover the whole city.\n   - **Reasoning**: The fog travels at a speed of 3 miles every 10 minutes. To cover 42 miles, the time required is \\( \\frac{42 \\text{ miles}}{3 \\text{ miles/10 minutes}} = 140 \\text{ minutes} \\).\n   - **Result 1**: 140 minutes\n   - **Final answer**: N = 1\n\n2. **Statement 2**: The total hours for all Peyton’s after-work activities is 7.\n   - **Reasoning**: \n     - Monday: 1 hour\n     - Tuesday: 3 times Monday's yoga session = \\( 3 \\times 1 = 3 \\) hours\n     - Wednesday: 0.5 hours\n     - Thursday: Half as long as Tuesday's cooking class = \\( \\frac{3}{2} = 1.5 \\) hours\n     - Friday: 2 hours\n   - **Total hours**: \\( 1 + 3 + 0.5 + 1.5 + 2 = 8 \\) hours\n   - **Result 2**: 8 hours\n   - **Final answer**: N = 2\n\nFinal answer: N = 2<|endoftext|>"
+    },
+    {
+      "prediction": null,
+      "gold": "2",
+      "correct": false,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 207,
+      "at_token_limit": false,
+      "stopped_on_answer": false,
+      "seconds": 6.9,
+      "response": "1. The sub sandwiches that remained have 25 meatballs.\n   Reasoning: Each sub has 4 meatballs, and 3 sub sandwiches were ordered. So, 3 * 4 = 12 meatballs were used. The remaining 25 meatballs are from the 3 sub sandwiches.\n   Result 1: 25\n   Final answer: T\n\n2. After the sun moves for 10 hours, it will be 82 degrees from the ground when viewed from Sahir's house.\n   Reasoning: The sun moves at 5 degrees per hour. After 10 hours, the sun will have moved 10 * 5 = 50 degrees. Since the angle of the pyramids is 32 degrees, the sun will be 50 - 32 = 18 degrees from the ground when viewed from Sahir's house.\n   Result 2: 18\n   Final answer: F\n\nFinal answer: T<|endoftext|>"
+    },
+    {
+      "prediction": null,
+      "gold": "1",
+      "correct": false,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 360,
+      "at_token_limit": false,
+      "stopped_on_answer": false,
+      "seconds": 47.3,
+      "response": "1. After 15 days, Ryan has 25 flowers if 5 did not grow.\n   - Reasoning: The problem states that 5 flowers did not grow, so the number of flowers that grew is 25 - 5 = 20.\n   - Result 1: 20\n   - Final answer: N = 1\n\n2. If Dana spends one-third of the time running and two-thirds of the time walking, she can travel 17 miles in six hours.\n   - Reasoning: Let's assume Dana's speed is \\( v \\) miles per hour. Then, her running speed is \\( 4v \\) and her walking speed is \\( \\frac{v}{2} \\).\n   - Time spent running: \\( \\frac{1}{3} \\times 6 = 2 \\) hours\n   - Time spent walking: \\( \\frac{2}{3} \\times 6 = 4 \\) hours\n   - Distance covered running: \\( 4v \\times 2 = 8v \\) miles\n   - Distance covered walking: \\( \\frac{v}{2} \\times 4 = 2v \\) miles\n   - Total distance: \\( 8v + 2v = 10v \\) miles\n   - Given that the total distance is 17 miles, we have \\( 10v = 17 \\)\n   - Solving for \\( v \\): \\( v = \\frac{17}{10} = 1.7 \\) miles per hour\n   - Result 2: 1.7\n   - Final answer: N = 2\n\nFinal answer: N = 2<|endoftext|>"
+    },
+    {
+      "prediction": null,
+      "gold": "2",
+      "correct": false,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 700,
+      "at_token_limit": true,
+      "stopped_on_answer": false,
+      "seconds": 64.3,
+      "response": "1. Lori will need 3 dozens of eggs for her party.\n   - Reasoning: Lori anticipates 16 guests, and each guest will consume 3 deviled egg halves. Therefore, Lori needs 16 * 3 = 48 deviled egg halves. Since she needs 1 whole egg for every 2 halves, she will need 48 / 2 = 24 eggs. Since 1 dozen equals 12, Lori will need 24 / 12 = 2 dozens of eggs. Result 1: 24\n   - Final answer: N\n\n2. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 5 fewer than 60, so he has 60 - 5 = 55 video games. Result 2: 55\n   - Final answer: N\n\n3. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 5 fewer than 60, so he has 60 - 5 = 55 video games. Result 3: 55\n   - Final answer: N\n\n4. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 5 fewer than 60, so he has 60 - 5 = 55 video games. Result 4: 55\n   - Final answer: N\n\n5. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 5 fewer than 60, so he has 60 - 5 = 55 video games. Result 5: 55\n   - Final answer: N\n\n6. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 5 fewer than 60, so he has 60 - 5 = 55 video games. Result 6: 55\n   - Final answer: N\n\n7. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 ="
+    }
+  ]
+}

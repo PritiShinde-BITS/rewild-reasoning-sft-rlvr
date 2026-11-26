@@ -1,0 +1,88 @@
+{
+  "tag": "base_validation",
+  "n": 4,
+  "accuracy": 0.0,
+  "strict_accuracy": 0.0,
+  "format_rate": 0.0,
+  "extraction_rate": 0.25,
+  "truncation_rate": 0.75,
+  "reasoning_tag_rate": 0.0,
+  "by_type": {
+    "gf": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfr": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfrx": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfx": {
+      "n": 1,
+      "accuracy": 0.0
+    }
+  },
+  "nonoverlap_n": 0,
+  "nonoverlap_accuracy": null,
+  "examples": [
+    {
+      "id": "f043fef392a3fb8432ef",
+      "gold": "4",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfrx",
+      "nonoverlap": null,
+      "tokens": 192,
+      "truncated": true,
+      "response": "1. **The number of people who tried to park in the lot without paying is 32**  \n   - This statement is **Uncertain** to the passage above. The passage mentions that 75% of the cars display valid tickets, but it does not provide any information about the number of cars that do not have valid tickets or the number of people who tried to park without paying. Therefore, this statement cannot be confirmed based on the given context.\n\n2. **In 10 years, Zion's dad will be 26 years older than him.**  \n   - This statement is **Correct**. The passage states that Zion's dad is 3 more than 4 times Zion's age, which means in 10 years, Zion's dad will be 4 times Zion's age plus 3, resulting in 26 years older than Zion.\n\n3. **The statement \"The economy of Country Y is recovering"
+    },
+    {
+      "id": "759842ad64882a460b39",
+      "gold": "3",
+      "prediction": "1",
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfr",
+      "nonoverlap": null,
+      "tokens": 192,
+      "truncated": true,
+      "response": "Let's analyze the context and statements step by step:\n\n1. **Context Analysis**: The context discusses the cost-effectiveness of QI's office-phone system and Corelink's system, as well as the logical reasoning about mammals and elephants. It also mentions quizzes and logical taxonomy.\n\n2. **Statement Analysis**:\n   - **Statement 1**: \"The reasoning in the argument above is most closely paralleled by the reasoning in 'Marissa is just tall enough that she can touch the ceiling when she jumps as high as she can, and since Jeff is taller than Marissa, he too must be able to touch the ceiling when he jumps.'\"  \n     - **Reasoning**: This statement is not directly related to the context. The context discusses cost-effectiveness and logical reasoning about mammals and elephants, not comparing heights or ceilings.  \n     - **Final Answer**: 1\n\n   - **Statement 2**: \"Jumbo is not sleepy.\" Contr"
+    },
+    {
+      "id": "957d7cc64216d68aae5e",
+      "gold": "1",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfx",
+      "nonoverlap": null,
+      "tokens": 192,
+      "truncated": true,
+      "response": "1. **\"Sam is a big fan of pop bands and singers.\" is Uncertain to the passage above**\n   - **Reasoning:** The passage does not provide any information about Sam's interests or preferences. It only mentions Diana's system and Sam's ambitions. Therefore, this statement cannot be confirmed or denied based on the given context.\n   - **Final answer:** Uncertain\n\n2. **\"John Evans Popularized the term paalstab.\" Agrees with the passage above**\n   - **Reasoning:** The passage mentions that John Evans popularized the term \"palstave,\" which is a bronze digging shovel. This aligns with the description of a palstab, as a palstab is not an axe but a digging shovel. Therefore, this statement is correct.\n   - **Final answer:** Correct\n\n3. **Diana will get 75 more minutes of video game time as a result of her raise.**\n   -"
+    },
+    {
+      "id": "12a8d0179bf79758e5bd",
+      "gold": "2",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gf",
+      "nonoverlap": null,
+      "tokens": 154,
+      "truncated": false,
+      "response": "1. **163 invited students attended the party** is **Uncertain to the passage above**. The passage mentions that 70% of the 400 students are reveling under invites they’ve securely kept, but it does not provide specific numbers for the number of invited students. Therefore, we cannot determine the exact number of invited students based on the given information.\n\n2. **\"Harkness is not a Yale dormitory.\" is Uncertain to the passage above**. The passage mentions that Yale Housing manages all buildings that Yale Housing manages, but it does not provide any information about Harkness being a Yale dormitory. Therefore, we cannot confirm or deny this statement based on the given passage.\n\n### Final Answer: 1"
+    }
+  ]
+}

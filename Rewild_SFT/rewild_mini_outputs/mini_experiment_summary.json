@@ -1,0 +1,28 @@
+{
+  "config": {
+    "sft_examples": 3,
+    "grpo_steps": 2,
+    "rollouts_per_step": 3,
+    "test_examples": 2,
+    "process_reward_weight": 0.2,
+    "offline_demo": false
+  },
+  "base_accuracy": 0.0,
+  "after_sft_accuracy": 0.0,
+  "after_sft_grpo_accuracy": 0.0,
+  "grpo_history": [
+    {
+      "updated": true,
+      "mean_reward": 0.3333333432674408,
+      "rewards": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "updated": false,
+      "mean_reward": 0.0
+    }
+  ]
+}

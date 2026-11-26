@@ -1,0 +1,60 @@
+{
+  "tag": "BASE",
+  "n": 4,
+  "accuracy": 0.25,
+  "answer_extraction_rate": 0.25,
+  "reasoning_tag_rate": 0.0,
+  "mean_verified_result_fraction": null,
+  "n_process_verified": 0,
+  "truncation_rate": 0.25,
+  "examples": [
+    {
+      "prediction": "1",
+      "gold": "1",
+      "correct": true,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 350,
+      "at_token_limit": false,
+      "stopped_on_answer": false,
+      "seconds": 8.7,
+      "response": "1. **City Distance and Time Calculation:**\n   - The city is 42 miles across.\n   - The fog travels 3 miles every 10 minutes.\n   - To find the time it takes to cover 42 miles, we first determine how many 3-mile segments fit into 42 miles.\n   - \\( \\frac{42 \\text{ miles}}{3 \\text{ miles/10 minutes}} = 14 \\text{ segments} \\)\n   - Since each segment takes 10 minutes, the total time is \\( 14 \\times 10 \\text{ minutes} = 140 \\text{ minutes} \\).\n   - **Result 1: 140 minutes** is correct.\n\n2. **Total Hours Calculation:**\n   - Monday: 1 hour\n   - Tuesday: 3 times Monday's yoga session = \\( 3 \\times 1 \\text{ hour} = 3 \\text{ hours} \\)\n   - Wednesday: 0.5 hour (half an hour)\n   - Thursday: Half as long as Tuesday's cooking class = \\( \\frac{3 \\text{ hours}}{2} = 1.5 \\text{ hours} \\)\n   - Friday: 2 hours\n   - Total hours = \\( 1 + 3 + 0.5 + 1.5 + 2 = 8 \\text{ hours} \\).\n   - **Result 2: 8 hours** is incorrect.\n\n3. **Final Answer:**\n   - The correct statement is 1. The total time for the fog to cover the city is 140 minutes.<|endoftext|>"
+    },
+    {
+      "prediction": null,
+      "gold": "2",
+      "correct": false,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 245,
+      "at_token_limit": false,
+      "stopped_on_answer": false,
+      "seconds": 6.1,
+      "response": "1. The sub sandwiches that remained have 25 meatballs.\n   - Reasoning: Each sub has 4 meatballs, and 3 sub sandwiches were ordered. So, 3 * 4 = 12 meatballs. After Mark consumed 4 meatballs, 12 - 4 = 8 meatballs remained. Therefore, the remaining sub sandwiches have 8 meatballs each, not 25. Result i: False.\n2. After the sun moves for 10 hours, it will be 82 degrees from the ground when viewed from Sahir's house.\n   - Reasoning: The sun moves at 5 degrees per hour. After 10 hours, the sun will have moved 10 * 5 = 50 degrees. Since the angle of the pyramids is 32 degrees, 50 - 32 = 18 degrees. Therefore, the sun will be 18 degrees from the ground when viewed from Sahir's house. Result i: False.\n3. Final answer: N is the number of the one correct statement. Only AFTER finishing the reasoning, output one final line: Final answer: N.<|endoftext|>"
+    },
+    {
+      "prediction": null,
+      "gold": "1",
+      "correct": false,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 278,
+      "at_token_limit": false,
+      "stopped_on_answer": false,
+      "seconds": 27.6,
+      "response": "1. **Statement 1:**\n   - **Reasoning:** The problem states that Dana can run at a velocity that is four times faster than her leisurely walk and skip at a rate which is half as fast as she runs. However, it does not provide specific details about the number of flowers Ryan has after 15 days. Therefore, we cannot determine the number of flowers Ryan has based on the given information.\n   - **Result 1:** N is not applicable.\n   - **Final answer:** N is not applicable.\n\n2. **Statement 2:**\n   - **Reasoning:** The problem states that Dana spends one-third of the time running and two-thirds of the time walking, and she can travel 17 miles in six hours. We need to calculate the distance she can travel in one hour.\n     - Time spent running: \\( \\frac{1}{3} \\times 6 = 2 \\) hours\n     - Time spent walking: \\( \\frac{2}{3} \\times 6 = 4 \\) hours\n     - Distance traveled in one hour: \\( \\frac{17}{6} \\approx 2.83 \\) miles\n   - **Result 2:** The statement is true.\n   - **Final answer:** 2\n\nThe correct statement is **Statement 2**.<|endoftext|>"
+    },
+    {
+      "prediction": null,
+      "gold": "2",
+      "correct": false,
+      "reasoning_tags": false,
+      "result_fraction": null,
+      "tokens": 700,
+      "at_token_limit": true,
+      "stopped_on_answer": false,
+      "seconds": 56.2,
+      "response": "1. Lori will need 3 dozens of eggs for her party.\n   - Reasoning: Lori anticipates 16 guests, and each guest will consume 3 deviled egg halves. Therefore, Lori needs 16 * 3 = 48 deviled egg halves. Since she needs 1 whole egg for every 2 halves, she will need 48 / 2 = 24 eggs. Since 1 dozen equals 12, Lori will need 24 / 12 = 2 dozens of eggs. Result i: 24\n   - Final answer: N\n\n2. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 60 - 5 = 55 video games. Result i: 55\n   - Final answer: N\n\n3. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 60 - 5 = 55 video games. Result i: 55\n   - Final answer: N\n\n4. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 60 - 5 = 55 video games. Result i: 55\n   - Final answer: N\n\n5. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 60 - 5 = 55 video games. Result i: 55\n   - Final answer: N\n\n6. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 60 - 5 = 55 video games. Result i: 55\n   - Final answer: N\n\n7. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video games as what Brian is left with. Brian has 20 video games, so 3 times that number is 3 * 20 = 60. Bobby has 60 - 5 = 55 video games. Result i: 55\n   - Final answer: N\n\n8. Bobby has 40 video games.\n   - Reasoning: Bobby boasts having 5 fewer than 3 times as many video"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sft_validation_accuracy": 0.52,
+  "selected": "sft",
+  "selected_validation_accuracy": 0.52,
+  "selected_strict_accuracy": 0.52,
+  "groups": 20,
+  "updated_groups": 16,
+  "teacher_groups": 10,
+  "fresh_groups": 10,
+  "reasoning_weight": 0.15,
+  "format_weight": 0.05,
+  "learning_rate": 2e-06,
+  "rollouts": 4,
+  "kl_beta": 0.05,
+  "seed": 42
+}

@@ -1,0 +1,88 @@
+{
+  "tag": "grpo_last_test",
+  "n": 4,
+  "accuracy": 0.25,
+  "strict_accuracy": 0.0,
+  "format_rate": 0.0,
+  "extraction_rate": 0.25,
+  "truncation_rate": 0.75,
+  "reasoning_tag_rate": 0.0,
+  "by_type": {
+    "gf": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfr": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gfrx": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "gg": {
+      "n": 1,
+      "accuracy": 1.0
+    }
+  },
+  "nonoverlap_n": 4,
+  "nonoverlap_accuracy": 0.25,
+  "examples": [
+    {
+      "id": "1646742e9928dcf03da4-154",
+      "gold": "1",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gf",
+      "nonoverlap": true,
+      "tokens": 192,
+      "truncated": true,
+      "response": "1. They ate 31 total slices.\n2. \"Robert Lewandowski is a soccer player.\" is Uncertain to the passage above\n\n### Reasoning\n1. The total number of slices eaten is calculated as follows:\n   - Each pizza has 8 slices.\n   - There are 4 pizzas.\n   - Total slices = 4 pizzas * 8 slices/pizza = 32 slices.\n   - Becky ate 3 more slices than Jake, and Silvia ate twice as many slices as Jake.\n   - Let Jake's slices be \\( J \\).\n   - Becky's slices = \\( J + 3 \\).\n   - Silvia's slices = \\( 2J \\).\n   - Total slices = \\( J + (J + 3) + 2J = 4J + 3 \\).\n   - We know the total slices are 32, so \\( 4J + 3 = "
+    },
+    {
+      "id": "4d2d9445beab637ac659-481",
+      "gold": "4",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfrx",
+      "nonoverlap": true,
+      "tokens": 192,
+      "truncated": true,
+      "response": "1. If Uriah removes 30 comic books, he needs to remove 16 toys.\n   - Reasoning: The problem states that Uriah needs to remove approximately 15 pounds to lighten the load. If he removes 30 comic books, which weigh 1/4 pound each, the total weight removed is \\(30 \\times \\frac{1}{4} = 7.5\\) pounds. Since he needs to remove 15 pounds, he must remove 16 toys to reach the total weight of 15 pounds. Therefore, this statement is correct.\n\n2. There were 11 cats left on the rock.\n   - Reasoning: The problem states that four boats arrived and carried away 5 cats each, significantly reducing the number of cats on the rock. Since 4 boats carried away 5 cats each, the total number of cats removed is \\(4 \\times 5 = "
+    },
+    {
+      "id": "efe96d383782c12b4f50-34",
+      "gold": "1",
+      "prediction": "1",
+      "correct": true,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gg",
+      "nonoverlap": true,
+      "tokens": 192,
+      "truncated": true,
+      "response": "1. **Ricardo can get 142 fruits from his plants.**\n   - **Reasoning:** Ricardo has 5 tomato plants and 8 eggplant plants. Each tomato plant produces 22 tomatoes, so 5 tomato plants produce \\(5 \\times 22 = 110\\) tomatoes. Each eggplant plant produces 4 eggplants, so 8 eggplant plants produce \\(8 \\times 4 = 32\\) eggplants. Adding these together, \\(110 + 32 = 142\\) fruits.\n   - **Final answer:** 1\n\n2. **Rozanne can put out 3 trays of eggnog.**\n   - **Reasoning:** Rozanne has 48 eggs stored in cases and 2 eggs found loose in the cupboard. According to her recipe, each glass of eggnog requires 5 eggs. Therefore, the total number"
+    },
+    {
+      "id": "56bfa688ec06ae6f84c4-299",
+      "gold": "1",
+      "prediction": null,
+      "correct": false,
+      "strict_correct": false,
+      "format_ok": false,
+      "reasoning_tags": false,
+      "qtype": "gfr",
+      "nonoverlap": true,
+      "tokens": 173,
+      "truncated": false,
+      "response": "1. The reasoning in \"In most married couples, both spouses wake up at the same time. Padmini wakes up at seven o'clock every morning, so it must be that Padmini's spouse Lamba also wakes up at seven o'clock every morning.\" contains flawed reasoning most similar to that in the argument above. <reasoning>...</reasoning> The reasoning in the argument is flawed because it assumes that if Padmini wakes up at seven o'clock, then her spouse must also wake up at seven o'clock. This is not necessarily true, as the spouse could wake up at any time, not necessarily at seven o'clock. The argument does not provide any evidence or logical connection to support this conclusion. Therefore, the reasoning in the argument is flawed most similar to the flawed reasoning in the given context. Final answer: 1."
+    }
+  ]
+}

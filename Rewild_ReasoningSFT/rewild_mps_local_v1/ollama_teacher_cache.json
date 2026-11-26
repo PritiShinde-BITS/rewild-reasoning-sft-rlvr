@@ -1,0 +1,30 @@
+{
+  "19b838a3bf0eb392420f393ff1c06aee85f86c23059fb734e80d5a022f10bf11": {
+    "reasoning": "Given that Sam is using a Mac and the condition stipulates that if a project is in Python, he won't use a Mac, it implies that his project must be coded in C++. This directly supports statement 1, which states that the project Sam is doing is written in C++. However, this statement contradicts the passage above, which states that the project could be written in either C++ or Python. Therefore, statement 1 is incorrect. On the other hand, the passage does not provide any information about the cost of the chairs, so we cannot determine the cost of one chair. However, we can calculate the cost of the two chairs by subtracting the cost of the table from the total amount spent: $56 - $34 = $22. Since the two chairs cost the same, we can divide the total cost of the chairs by 2 to find the cost of one chair: $22 / 2 = $11. Therefore, statement 2 is incorrect. The passage states that Lorca was killed by the Spanish Nationalists, which agrees with the passage above. Therefore, statement 3 is correct.",
+    "final_answer": 3
+  },
+  "3d3541303ca99774402c7f6c7ccc6e85e326cb3603a53592b50fe5c4d646e4eb": {
+    "reasoning": "To solve this problem, we need to carefully analyze each statement and determine its validity based on the given context. We will evaluate each statement independently, using the information provided in the passage to support or refute each claim. We will also identify any incorrect alternatives and explain why they are incorrect. Our goal is to select the correct statement that accurately reflects the information presented in the passage.",
+    "final_answer": 4
+  },
+  "7392966d8a9c3226376afe777f292fd197a599de839ce64471466ee3c4921e61": {
+    "reasoning": "Jeremy spent $50 on basketball equipment. He bought 5 jerseys at $2 each, which is 5 x $2 = $10. He also bought a basketball for $18 and a pair of shorts for $8. The total cost is $10 + $18 + $8 = $36. Therefore, he has $50 - $36 = $14 left, not $13. Statement 1 is incorrect. Statement 2 is uncertain because the passage does not mention Hulu eating or not eating. However, it does mention that humans eat, which categorizes them as animals. Therefore, if Hulu eats, it would be an animal. Statement 3 is also incorrect because the passage does not mention a correlation between obesity and cable television. It mentions a correlation between obesity and television in general, and the potential exacerbation of this issue by interactive television. The correct answer is 2.",
+    "final_answer": 2
+  },
+  "e66f535682423a3650a0962ba8683d9d44ed5128ecdc072a8ea769d1b33a1c48": {
+    "reasoning": "Statement 1 is correct. Annie planned to spend 5 minutes less than three times the time she actually spent. She spent 67 minutes, so she planned to spend 67 + 5 = 72 minutes. Three times that is 3 * 72 = 216 minutes. She actually spent 67 minutes, which is 216 - 149 = 67 minutes. Statement 2 is incorrect. To reduce Oprah's car collection to 500, we need to divide 3500 by 500. 3500 / 500 = 7. The time to reduce her collection to 500 is 7 years, not 57 years.",
+    "final_answer": 1
+  },
+  "4d2886debdd2a3d16e94140b23f542805cb35e110eb15309555521253db32670": {
+    "reasoning": "Lovely cut her cake into 12 equal pieces, and only one-fourth of it was enjoyed by her visitors. This means that 1/4 of 12 is 3 slices were eaten, leaving 12 - 3 = 9 slices. Statement 1 says 10 slices were kept, which is incorrect because there are only 9 slices left. Statement 2 is a paraphrased version of the passage, but it's not a direct quote, so it's not necessarily incorrect. Statement 3 can be calculated by adding the number of bass (32), trout (32/4 = 8), and bluegill (32*2 = 64). 32 + 8 + 64 = 104 fish. Therefore, statement 3 is correct.",
+    "final_answer": 3
+  },
+  "051a43cd96e356f3512d5f6afcf96f895cb6d8a7d8f1f41ff43ff65b5e80e7c7": {
+    "reasoning": "Statement 1 is correct. The physicians' reasoning depends on the assumption that the proteins present in the tuberculosis bacterium are exclusive to that bacterium. If the proteins were present in other bacteria as well, the reaction to the test would not be indicative of a prior tuberculosis infection. This assumption is necessary for the physicians' conclusion to hold.",
+    "final_answer": 1
+  },
+  "9bb155c55f02707e211c3f1ca6e6b5b1cfa479649fc0c8646174d5b8593bddfc": {
+    "reasoning": "First, let's calculate the total number of chests and the total number of coins (gold, silver, and bronze) to be divided. The pirate has 3500 gold coins, 500 silver coins, and twice as many bronze coins, so 1000 bronze coins. The total number of coins is 3500 + 500 + 1000 = 5000 coins. Since the coins are to be divided equally among 5 chests, each chest will have 5000 / 5 = 1000 coins. Statement 1 is correct because each chest will indeed have 1000 coins in total, not 982. Now, let's consider Statement 2. The exchange rate is 3 coconuts for a crab and 6 crabs for a goat, so the number of crabs for a coconut is 6 / 3 = 2. The number of goats for a coconut is (6 / 3) * (6 / 3) = 4. Max has 342 coconuts, so he can get 342 * 4 = 1368 goats. Statement 2 is correct because if he converts all his coconuts into goats, he will have 1368 goats, not 19.",
+    "final_answer": 2
+  }
+}

@@ -1,0 +1,409 @@
+[
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nMarla engages in a creative project using a grid comprised of 10 rows and 15 squares per row. She strategically colors different sections: 4 rows of 6 squares in the middle are painted red, while all squares on the first 2 and last 2 rows are colored blue. The remaining squares in the grid are filled in green, creating a vibrant and colorful pattern.\n\nSimultaneously, Mr. Haj focuses on the financial aspects of running his grocery store, which requires $4000 a day to operate smoothly. This budget is allocated for several critical business operations including paying for orders, covering delivery costs, and compensating employees, ensuring the store's efficient daily function.\n\n### Statements:\n1. There are 66 squares Marla colors green\n2. If Mr. Haj spends 2/5 of the total operation costs on employees' salary and 1/4 of the remaining amount on delivery costs, he pays 1761 for the orders done.",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nMarla engages in a creative project using a grid comprised of 10 rows and 15 squares per row. She strategically colors different sections: 4 rows of 6 squares in the middle are painted red, while all squares on the first 2 and last 2 rows are colored blue. The remaining squares in the grid are filled in green, creating a vibrant and colorful pattern.\n\nSimultaneously, Mr. Haj focuses on the financial aspects of running his grocery store, which requires $4000 a day to operate smoothly. This budget is allocated for several critical business operations including paying for orders, covering delivery costs, and compensating employees, ensuring the store's efficient daily function.\n\n### Statements:\n1. There are 66 squares Marla colors green\n2. If Mr. Haj spends 2/5 of the total operation costs on employees' salary and 1/4 of the remaining amount on delivery costs, he pays 1761 for the orders done.\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n10*15 = 150\n4*6 = 24\n2+2 = 4\n4*15 = 60\n150-84 = 66\nResult 1: 66\nClaim 1: 66\nVerdict 1: TRUE\n\nStatement 2:\n2/5*4000 = 1600\n4000-1600 = 2400\n2400/4 = 600\n2400-600 = 1800\nResult 2: 1800\nClaim 2: 1761\nVerdict 2: FALSE\n</reasoning>\nFinal answer: 1",
+    "ground_truth": "1",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "66",
+      "2": "1800"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "10*15",
+        "result": "150"
+      },
+      {
+        "option": "1",
+        "expr": "4*6",
+        "result": "24"
+      },
+      {
+        "option": "1",
+        "expr": "2+2",
+        "result": "4"
+      },
+      {
+        "option": "1",
+        "expr": "4*15",
+        "result": "60"
+      },
+      {
+        "option": "1",
+        "expr": "150-84",
+        "result": "66"
+      },
+      {
+        "option": "2",
+        "expr": "2/5*4000",
+        "result": "1600"
+      },
+      {
+        "option": "2",
+        "expr": "4000-1600",
+        "result": "2400"
+      },
+      {
+        "option": "2",
+        "expr": "2400/4",
+        "result": "600"
+      },
+      {
+        "option": "2",
+        "expr": "2400-600",
+        "result": "1800"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nReynald, the head of the varsity department, has made a significant purchase for the athletic program, acquiring a total of 145 balls for various sports. Specifically, he bought 20 soccer balls, and interestingly, there were five more basketballs than soccer balls, totaling 25 basketballs. In keeping with the trend, there were twice as many tennis balls as soccer balls, amounting to 40 tennis balls. Additionally, there were ten more baseballs than soccer balls, resulting in 30 baseballs. The remainder of the balls, calculated to be 30, were volleyballs, ensuring a well-rounded selection for multiple sports activities.\n\nIn a different context, Delaware's population stands at 974,000. A revealing study about the state's connectivity indicates that there are 673 cell phones for every 1000 people, highlighting a significant level of mobile communication penetration among the residents. This statistic not only reflects on the technological engagement of the people in Delaware but also potentially influences various aspects of daily life and business within the state.\n\n### Statements:\n1. The total volleyballs Reynald bought is 29\n2. There are 655502 cell phones in Delaware",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nReynald, the head of the varsity department, has made a significant purchase for the athletic program, acquiring a total of 145 balls for various sports. Specifically, he bought 20 soccer balls, and interestingly, there were five more basketballs than soccer balls, totaling 25 basketballs. In keeping with the trend, there were twice as many tennis balls as soccer balls, amounting to 40 tennis balls. Additionally, there were ten more baseballs than soccer balls, resulting in 30 baseballs. The remainder of the balls, calculated to be 30, were volleyballs, ensuring a well-rounded selection for multiple sports activities.\n\nIn a different context, Delaware's population stands at 974,000. A revealing study about the state's connectivity indicates that there are 673 cell phones for every 1000 people, highlighting a significant level of mobile communication penetration among the residents. This statistic not only reflects on the technological engagement of the people in Delaware but also potentially influences various aspects of daily life and business within the state.\n\n### Statements:\n1. The total volleyballs Reynald bought is 29\n2. There are 655502 cell phones in Delaware\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n20+5 = 25\n2*20 = 40\n20+10 = 30\n145-115 = 30\nResult 1: 30\nClaim 1: 29\nVerdict 1: FALSE\n\nStatement 2:\n974000/1000 = 974\n974*673 = 655502\nResult 2: 655502\nClaim 2: 655502\nVerdict 2: TRUE\n</reasoning>\nFinal answer: 2",
+    "ground_truth": "2",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "30",
+      "2": "655502"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "20+5",
+        "result": "25"
+      },
+      {
+        "option": "1",
+        "expr": "2*20",
+        "result": "40"
+      },
+      {
+        "option": "1",
+        "expr": "20+10",
+        "result": "30"
+      },
+      {
+        "option": "1",
+        "expr": "145-115",
+        "result": "30"
+      },
+      {
+        "option": "2",
+        "expr": "974000/1000",
+        "result": "974"
+      },
+      {
+        "option": "2",
+        "expr": "974*673",
+        "result": "655502"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nAlexia and Ermias dedicate themselves to preparing soccer equipment. A soccer ball requires twenty minutes to inflate. Specifically, Alexia inflates 20 balls, and Ermias, demonstrating a slightly higher capacity, inflates 5 more balls than Alexia. This preparation ensures they have adequate equipment for upcoming matches or practice sessions.\n\nMeanwhile, a play on names and numbers arises when considering the names Elida and Adrianna. Elida consists of 5 letters. Adrianna’s name length is calculated to be 2 less than twice the number of letters in Elida’s name, which brings an interesting numeric aspect to the comparison of these two names.\n\n### Statements:\n1. 10 times the average number of letters in both names is 66\n2. The total time in minutes they took to inflate all the soccer balls is 900",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nAlexia and Ermias dedicate themselves to preparing soccer equipment. A soccer ball requires twenty minutes to inflate. Specifically, Alexia inflates 20 balls, and Ermias, demonstrating a slightly higher capacity, inflates 5 more balls than Alexia. This preparation ensures they have adequate equipment for upcoming matches or practice sessions.\n\nMeanwhile, a play on names and numbers arises when considering the names Elida and Adrianna. Elida consists of 5 letters. Adrianna’s name length is calculated to be 2 less than twice the number of letters in Elida’s name, which brings an interesting numeric aspect to the comparison of these two names.\n\n### Statements:\n1. 10 times the average number of letters in both names is 66\n2. The total time in minutes they took to inflate all the soccer balls is 900\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n2*5 = 10\n8+5 = 13\n13/2 = 6.5\n10*6.5 = 65\nResult 1: 65\nClaim 1: 66\nVerdict 1: FALSE\n\nStatement 2:\n20*20 = 400\n5+20 = 25\n25*20 = 500\n400+500 = 900\nResult 2: 900\nClaim 2: 900\nVerdict 2: TRUE\n</reasoning>\nFinal answer: 2",
+    "ground_truth": "2",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "65",
+      "2": "900"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "2*5",
+        "result": "10"
+      },
+      {
+        "option": "1",
+        "expr": "8+5",
+        "result": "13"
+      },
+      {
+        "option": "1",
+        "expr": "13/2",
+        "result": "6.5"
+      },
+      {
+        "option": "1",
+        "expr": "10*6.5",
+        "result": "65"
+      },
+      {
+        "option": "2",
+        "expr": "20*20",
+        "result": "400"
+      },
+      {
+        "option": "2",
+        "expr": "5+20",
+        "result": "25"
+      },
+      {
+        "option": "2",
+        "expr": "25*20",
+        "result": "500"
+      },
+      {
+        "option": "2",
+        "expr": "400+500",
+        "result": "900"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nAs one explores the various dynamics of growth and distribution, a striking example presents itself in a simple fruit display and a small town's demographic changes. Initially, the display consists of a selection of apples, oranges, and bananas, meticulously arranged in a manner where there are twice as many apples as oranges, and intriguingly, twice as many oranges as bananas.\n\nSimultaneously, the population of the Mojave town, which was a smaller community of 4000 people a decade ago, showcases a different kind of multiplication. Over the years, this population has grown significantly, tripling in size. Moreover, projections from a population analysis firm suggest an impending increase of 40% in the next five years.\n\nThis juxtaposition of the natural multiplication in the fruit display against the exponential human population growth in Mojave offers a nuanced perspective on how growth patterns, whether in nature or human societies, can mirror each other in surprising ways.\n\n### Statements:\n1. If there are 5 bananas on the display, the total number of fruits is 36\n2. The population of Mojave in five years will be 16800",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nAs one explores the various dynamics of growth and distribution, a striking example presents itself in a simple fruit display and a small town's demographic changes. Initially, the display consists of a selection of apples, oranges, and bananas, meticulously arranged in a manner where there are twice as many apples as oranges, and intriguingly, twice as many oranges as bananas.\n\nSimultaneously, the population of the Mojave town, which was a smaller community of 4000 people a decade ago, showcases a different kind of multiplication. Over the years, this population has grown significantly, tripling in size. Moreover, projections from a population analysis firm suggest an impending increase of 40% in the next five years.\n\nThis juxtaposition of the natural multiplication in the fruit display against the exponential human population growth in Mojave offers a nuanced perspective on how growth patterns, whether in nature or human societies, can mirror each other in surprising ways.\n\n### Statements:\n1. If there are 5 bananas on the display, the total number of fruits is 36\n2. The population of Mojave in five years will be 16800\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n5*2 = 10\n10*2 = 20\n20+10+5 = 35\nResult 1: 35\nClaim 1: 36\nVerdict 1: FALSE\n\nStatement 2:\n3*4000 = 12000\n40/100*12000 = 4800\n12000+4800 = 16800\nResult 2: 16800\nClaim 2: 16800\nVerdict 2: TRUE\n</reasoning>\nFinal answer: 2",
+    "ground_truth": "2",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "35",
+      "2": "16800"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "5*2",
+        "result": "10"
+      },
+      {
+        "option": "1",
+        "expr": "10*2",
+        "result": "20"
+      },
+      {
+        "option": "1",
+        "expr": "20+10+5",
+        "result": "35"
+      },
+      {
+        "option": "2",
+        "expr": "3*4000",
+        "result": "12000"
+      },
+      {
+        "option": "2",
+        "expr": "40/100*12000",
+        "result": "4800"
+      },
+      {
+        "option": "2",
+        "expr": "12000+4800",
+        "result": "16800"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nIn the realm of fishing habits and outcomes, the situation presents an interesting dynamic between two enthusiasts, Brian and Chris. Despite going fishing twice as often as Chris, Brian catches fish at a rate of 2/5 times fewer per trip. Impressively, Brian managed to catch 400 fish each time he went fishing. On the other hand, Chris took to the waters 10 times, presenting a stark comparison in effort and yield.\n\nMeanwhile, another scenario unfolds with Leo and Agrey, where Leo caught 40 fish, while Agrey managed to catch 20 more fish than Leo. This highlights not only their individual efforts but also the differences in their fishing success.\n\n### Statements:\n1. They caught a total of 13600 fish altogether.\n2. Together, Leo and Agrey caught 98 fish.",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nIn the realm of fishing habits and outcomes, the situation presents an interesting dynamic between two enthusiasts, Brian and Chris. Despite going fishing twice as often as Chris, Brian catches fish at a rate of 2/5 times fewer per trip. Impressively, Brian managed to catch 400 fish each time he went fishing. On the other hand, Chris took to the waters 10 times, presenting a stark comparison in effort and yield.\n\nMeanwhile, another scenario unfolds with Leo and Agrey, where Leo caught 40 fish, while Agrey managed to catch 20 more fish than Leo. This highlights not only their individual efforts but also the differences in their fishing success.\n\n### Statements:\n1. They caught a total of 13600 fish altogether.\n2. Together, Leo and Agrey caught 98 fish.\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n400*2 = 800\n2/5*400 = 160\n400+160 = 560\n560*10 = 5600\n8000+5600 = 13600\nResult 1: 13600\nClaim 1: 13600\nVerdict 1: TRUE\n\nStatement 2:\n40+20 = 60\n60+40 = 100\nResult 2: 100\nClaim 2: 98\nVerdict 2: FALSE\n</reasoning>\nFinal answer: 1",
+    "ground_truth": "1",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "13600",
+      "2": "100"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "400*2",
+        "result": "800"
+      },
+      {
+        "option": "1",
+        "expr": "2/5*400",
+        "result": "160"
+      },
+      {
+        "option": "1",
+        "expr": "400+160",
+        "result": "560"
+      },
+      {
+        "option": "1",
+        "expr": "560*10",
+        "result": "5600"
+      },
+      {
+        "option": "1",
+        "expr": "8000+5600",
+        "result": "13600"
+      },
+      {
+        "option": "2",
+        "expr": "40+20",
+        "result": "60"
+      },
+      {
+        "option": "2",
+        "expr": "60+40",
+        "result": "100"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nJenny and her girlfriend embarked on a new journey together, deciding to welcome a cat into their lives. Amid their planning, they agreed to equally share all expenses, aside from toys for their new pet, which they would each buy separately. Meanwhile, in a different setting, Orlan had a 20-meter rope, and chose to give one-fourth of it, which is 5 meters, to Allan. This thoughtful gesture left 15 meters, from which he then generously offered two-thirds, or 10 meters, to Jack, demonstrating a similar spirit of sharing to Jenny's agreement.\n\nThe financial aspects of cat adoption for Jenny consisted of not just the $50 adoption fee but also the significant vet visits amounting to $500 for the first year, alongside a recurring monthly cost of $25 for food. Concurrently, she enthusiastically purchased $200 worth of toys, embracing their decision to individually handle this part of the expenses. This narrative of careful budgeting and kindness through shared responsibilities in the rope distribution interweaves the values of collaboration and support.\n\n### Statements:\n1. Orlan has 5 meters of rope left.\n2. Jenny spent 612 on the cat in the first year.",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nJenny and her girlfriend embarked on a new journey together, deciding to welcome a cat into their lives. Amid their planning, they agreed to equally share all expenses, aside from toys for their new pet, which they would each buy separately. Meanwhile, in a different setting, Orlan had a 20-meter rope, and chose to give one-fourth of it, which is 5 meters, to Allan. This thoughtful gesture left 15 meters, from which he then generously offered two-thirds, or 10 meters, to Jack, demonstrating a similar spirit of sharing to Jenny's agreement.\n\nThe financial aspects of cat adoption for Jenny consisted of not just the $50 adoption fee but also the significant vet visits amounting to $500 for the first year, alongside a recurring monthly cost of $25 for food. Concurrently, she enthusiastically purchased $200 worth of toys, embracing their decision to individually handle this part of the expenses. This narrative of careful budgeting and kindness through shared responsibilities in the rope distribution interweaves the values of collaboration and support.\n\n### Statements:\n1. Orlan has 5 meters of rope left.\n2. Jenny spent 612 on the cat in the first year.\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n20*1/4 = 5\n20-5 = 15\n15*2/3 = 10\n15-10 = 5\nResult 1: 5\nClaim 1: 5\nVerdict 1: TRUE\n\nStatement 2:\n25*12 = 300\n300+50+500 = 850\n850/2 = 425\n425+200 = 625\nResult 2: 625\nClaim 2: 612\nVerdict 2: FALSE\n</reasoning>\nFinal answer: 1",
+    "ground_truth": "1",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "5",
+      "2": "625"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "20*1/4",
+        "result": "5"
+      },
+      {
+        "option": "1",
+        "expr": "20-5",
+        "result": "15"
+      },
+      {
+        "option": "1",
+        "expr": "15*2/3",
+        "result": "10"
+      },
+      {
+        "option": "1",
+        "expr": "15-10",
+        "result": "5"
+      },
+      {
+        "option": "2",
+        "expr": "25*12",
+        "result": "300"
+      },
+      {
+        "option": "2",
+        "expr": "300+50+500",
+        "result": "850"
+      },
+      {
+        "option": "2",
+        "expr": "850/2",
+        "result": "425"
+      },
+      {
+        "option": "2",
+        "expr": "425+200",
+        "result": "625"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nPhill embarks on a mathematical adventure with a pizza, first halving it, then halving the halves, and again slicing each of those pieces into halves, crafting a total of eight equal slices. This precision in division presents a paradox of sharing equally, yet he optically manages by giving 1 slice to 3 of his friends and 2 slices to 2 of his friends. Amid this casual gathering, thoughts drift to fantastical speeds; specifically, a superhero is known for their superhuman ability to run 10 miles in merely 4 minutes. \n\nIn a parallel narrative of pace and pursuit, somewhere in the city roams a supervillain with an Evil-Mobile, clocked at a consistent speed of 100 miles per hour. These fictional speeds, whether by foot or by machine, stir the imagination, contrasting sharply with the leisurely, methodical process of cutting and distributing pizza among friends. This juxtaposition of daily activities and extraordinary abilities encapsulates a day marked by both ordinary pleasures and tales of extraordinary feats.\n\n### Statements:\n1. In an hour, the superhero can run 53 miles farther than the supervillain can drive.\n2. There is 1 slice of pizza left for Phill",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nPhill embarks on a mathematical adventure with a pizza, first halving it, then halving the halves, and again slicing each of those pieces into halves, crafting a total of eight equal slices. This precision in division presents a paradox of sharing equally, yet he optically manages by giving 1 slice to 3 of his friends and 2 slices to 2 of his friends. Amid this casual gathering, thoughts drift to fantastical speeds; specifically, a superhero is known for their superhuman ability to run 10 miles in merely 4 minutes. \n\nIn a parallel narrative of pace and pursuit, somewhere in the city roams a supervillain with an Evil-Mobile, clocked at a consistent speed of 100 miles per hour. These fictional speeds, whether by foot or by machine, stir the imagination, contrasting sharply with the leisurely, methodical process of cutting and distributing pizza among friends. This juxtaposition of daily activities and extraordinary abilities encapsulates a day marked by both ordinary pleasures and tales of extraordinary feats.\n\n### Statements:\n1. In an hour, the superhero can run 53 miles farther than the supervillain can drive.\n2. There is 1 slice of pizza left for Phill\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n60/4 = 15\n15*10 = 150\n150-100 = 50\nResult 1: 50\nClaim 1: 53\nVerdict 1: FALSE\n\nStatement 2:\n1*2 = 2\n2*2 = 4\n4*2 = 8\n2*2 = 4\n8-7 = 1\nResult 2: 1\nClaim 2: 1\nVerdict 2: TRUE\n</reasoning>\nFinal answer: 2",
+    "ground_truth": "2",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "50",
+      "2": "1"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "60/4",
+        "result": "15"
+      },
+      {
+        "option": "1",
+        "expr": "15*10",
+        "result": "150"
+      },
+      {
+        "option": "1",
+        "expr": "150-100",
+        "result": "50"
+      },
+      {
+        "option": "2",
+        "expr": "1*2",
+        "result": "2"
+      },
+      {
+        "option": "2",
+        "expr": "2*2",
+        "result": "4"
+      },
+      {
+        "option": "2",
+        "expr": "4*2",
+        "result": "8"
+      },
+      {
+        "option": "2",
+        "expr": "2*2",
+        "result": "4"
+      },
+      {
+        "option": "2",
+        "expr": "8-7",
+        "result": "1"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nThe P.T.O. organized a vibrant track and field day for the elementary students, ensuring each grade was easily distinguishable by different colored shirts. The event saw 101 kindergartners proudly wearing orange shirts priced at $5.80 each. At the same time, the school's transportation was bustling as a bus carrying 28 students halted at an intersection, soon welcoming an additional 30 students to make a total of 58 on board.\n\nAs the day progressed, 113 first graders showcased their yellow shirts, each costing $5, adding a bright splash of color to the field. Simultaneously, the logistical precision continued with the second graders who were geared up in blue shirts costing $5.60 each, totaling 107 participants who eagerly prepared for their events. The scheme didn't just visually unify the students but also facilitated easy group management amidst the day's activities.\n\nThe diversity in attire was further enriched by 108 third graders, who donned green shirts tagged at $5.25 each, blending beautifully with the school's lively and dynamic atmosphere. This methodical planning by the P.T.O. was not just about aesthetics but also about fostering a sense of belonging and team spirit among the students through the cheerful display of harmonized efforts.\n\n### Statements:\n1. 40% of the students who entered the bus at the intermediate stop is 11\n2. The P.T.O. spent 2317 on shirts for field day.",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nThe P.T.O. organized a vibrant track and field day for the elementary students, ensuring each grade was easily distinguishable by different colored shirts. The event saw 101 kindergartners proudly wearing orange shirts priced at $5.80 each. At the same time, the school's transportation was bustling as a bus carrying 28 students halted at an intersection, soon welcoming an additional 30 students to make a total of 58 on board.\n\nAs the day progressed, 113 first graders showcased their yellow shirts, each costing $5, adding a bright splash of color to the field. Simultaneously, the logistical precision continued with the second graders who were geared up in blue shirts costing $5.60 each, totaling 107 participants who eagerly prepared for their events. The scheme didn't just visually unify the students but also facilitated easy group management amidst the day's activities.\n\nThe diversity in attire was further enriched by 108 third graders, who donned green shirts tagged at $5.25 each, blending beautifully with the school's lively and dynamic atmosphere. This methodical planning by the P.T.O. was not just about aesthetics but also about fostering a sense of belonging and team spirit among the students through the cheerful display of harmonized efforts.\n\n### Statements:\n1. 40% of the students who entered the bus at the intermediate stop is 11\n2. The P.T.O. spent 2317 on shirts for field day.\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n58-28 = 30\n40/100*30 = 12\nResult 1: 12\nClaim 1: 11\nVerdict 1: FALSE\n\nStatement 2:\n101*5.80 = 585.80\n113*5 = 565\n107*5.60 = 599.20\n108*5.25 = 567\n585.8+565+599.2+567 = 2317\nResult 2: 2317\nClaim 2: 2317\nVerdict 2: TRUE\n</reasoning>\nFinal answer: 2",
+    "ground_truth": "2",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "12",
+      "2": "2317"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "58-28",
+        "result": "30"
+      },
+      {
+        "option": "1",
+        "expr": "40/100*30",
+        "result": "12"
+      },
+      {
+        "option": "2",
+        "expr": "101*5.80",
+        "result": "585.80"
+      },
+      {
+        "option": "2",
+        "expr": "113*5",
+        "result": "565"
+      },
+      {
+        "option": "2",
+        "expr": "107*5.60",
+        "result": "599.20"
+      },
+      {
+        "option": "2",
+        "expr": "108*5.25",
+        "result": "567"
+      },
+      {
+        "option": "2",
+        "expr": "585.8+565+599.2+567",
+        "result": "2317"
+      }
+    ]
+  }
+]

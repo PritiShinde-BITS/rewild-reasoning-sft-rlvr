@@ -1,0 +1,1378 @@
+[
+  {
+    "step": 1,
+    "id": "f29e72eb2d0a241483f0",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 4",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 0.05,
+        "pred": "4",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": -8.940696716308594e-08,
+    "kl": 0.0
+  },
+  {
+    "step": 2,
+    "id": "576b59ee5bb607490041",
+    "mean_reward": 0.05000000074505806,
+    "updated": false,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "id": "9da264ff8c67b5d2626d",
+    "mean_reward": 0.7999999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.043081283569336e-06,
+    "kl": 5.329211603566364e-05
+  },
+  {
+    "step": 4,
+    "id": "c717576622eb633aad67",
+    "mean_reward": 0.7999999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 2.980232238769531e-07,
+    "kl": 1.6428437220383785e-05
+  },
+  {
+    "step": 5,
+    "id": "b571946beb2d5338605f",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 2.9802322387695312e-08,
+    "kl": 1.987063399155886e-06
+  },
+  {
+    "step": 6,
+    "id": "2b6a504fc2f0ea8bbc75",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 5.960464477539063e-08,
+    "kl": 4.990772282553735e-06
+  },
+  {
+    "step": 7,
+    "id": "d60e1bfbac1901bbd1fd",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 89,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "3",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "3",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.475214958190918e-06,
+    "kl": 7.474267476936802e-05
+  },
+  {
+    "step": 8,
+    "id": "30804142235a347c1fb1",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.1920928955078125e-06,
+    "kl": 5.623073106875154e-05
+  },
+  {
+    "step": 9,
+    "id": "d2331130e3cf677235e8",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 7.450580596923828e-08,
+    "kl": 2.940779694426965e-06
+  },
+  {
+    "step": 10,
+    "id": "8f53af625ae46bb86389",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 6.318092346191406e-06,
+    "kl": 0.0003192882359144278
+  },
+  {
+    "step": 11,
+    "id": "9280dcdd2ac1acb3c963",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 1.05,
+        "pred": "3",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 1.05,
+        "pred": "3",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 3.129243850708008e-07,
+    "kl": 1.6887548326849355e-05
+  },
+  {
+    "step": 12,
+    "id": "6a0eb13c360f41b538d7",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 2.2649765014648438e-06,
+    "kl": 0.00011623651153058745
+  },
+  {
+    "step": 13,
+    "id": "22eae8bc89af6f19e58d",
+    "mean_reward": 0.7999999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.1846423149108887e-05,
+    "kl": 0.0005935488297836855
+  },
+  {
+    "step": 14,
+    "id": "bdd4df39dbef9c7b3942",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 7.241964340209961e-06,
+    "kl": 0.00036026976886205375
+  },
+  {
+    "step": 15,
+    "id": "b05d57654ea8bea96dc2",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.4334917068481445e-05,
+    "kl": 0.0007205866859294474
+  },
+  {
+    "step": 16,
+    "id": "77484ad3d41bd02c82ea",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.0728836059570312e-05,
+    "kl": 0.0005407636053860188
+  },
+  {
+    "step": 17,
+    "id": "062edacf69ae30001404",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 1.05,
+        "pred": "3",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 3.993511199951172e-06,
+    "kl": 0.0001970632092707092
+  },
+  {
+    "step": 18,
+    "id": "e4e146420c72fde464b4",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 2.633035182952881e-05,
+    "kl": 0.0013164444535505027
+  },
+  {
+    "step": 19,
+    "id": "aab79aafbe4c5b25f9bb",
+    "mean_reward": 0.7999999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 67,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 3.6835670471191406e-05,
+    "kl": 0.0018430667696520686
+  },
+  {
+    "step": 20,
+    "id": "b7f6ceb628b28d6f2545",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 4",
+        "truncated": false,
+        "tokens": 107,
+        "reward": 0.05,
+        "pred": "4",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 107,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 107,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.6570091247558594e-05,
+    "kl": 0.0008299558339786017
+  },
+  {
+    "step": 21,
+    "id": "7b957eb6096fe505740a",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 4.723668098449707e-06,
+    "kl": 0.00023528274687123485
+  },
+  {
+    "step": 22,
+    "id": "206d78f2157277f9f4f3",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 66,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 2.434849739074707e-05,
+    "kl": 0.0012190723791718483
+  },
+  {
+    "step": 23,
+    "id": "3f1c9fa1b99c9d233355",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 6.899237632751465e-06,
+    "kl": 0.00034413787216180936
+  },
+  {
+    "step": 24,
+    "id": "24485beb66dd34c5518d",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 1.05,
+        "pred": "3",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 85,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.2964010238647461e-05,
+    "kl": 0.0006480404663307127
+  },
+  {
+    "step": 25,
+    "id": "4f60cfc02b2faccf027d",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 1.05,
+        "pred": "3",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 4",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 0.05,
+        "pred": "4",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 105,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 7.748603820800781e-07,
+    "kl": 3.958600063924678e-05
+  },
+  {
+    "step": 26,
+    "id": "04a81c3efdaac8220d6c",
+    "mean_reward": 0.05000000074505806,
+    "updated": false,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 4",
+        "truncated": false,
+        "tokens": 104,
+        "reward": 0.05,
+        "pred": "4",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 104,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 106,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 104,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      }
+    ]
+  },
+  {
+    "step": 27,
+    "id": "a019f9e5318cd92b37c3",
+    "mean_reward": 0.7999999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 102,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 102,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nOption 4 is a logic problem. I will use formal logic tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 102,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 104,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 4.753470420837402e-06,
+    "kl": 0.0002425970851618331
+  },
+  {
+    "step": 28,
+    "id": "867581582bac086a6488",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a logic problem. I will use formal logic tactic to solve it.\nOption 2 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 87,
+        "reward": 1.05,
+        "pred": "2",
+        "correct": true,
+        "format_ok": true
+      }
+    ],
+    "loss": 5.4836273193359375e-06,
+    "kl": 0.00027297623091726564
+  },
+  {
+    "step": 29,
+    "id": "9aa5e94fa3053bbac847",
+    "mean_reward": 0.29999998211860657,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 107,
+        "reward": 0.05,
+        "pred": "1",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 107,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 4",
+        "truncated": false,
+        "tokens": 107,
+        "reward": 1.05,
+        "pred": "4",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a commonsense reasoning problem. I will use general program tactic to solve it.\nOption 2 is a math problem. I will use math tactic to solve it.\nOption 3 is a logic problem. I will use formal logic tactic to solve it.\nOption 4 is a commonsense reasoning problem. I will use general program tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 2",
+        "truncated": false,
+        "tokens": 107,
+        "reward": 0.05,
+        "pred": "2",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.2814998626708984e-06,
+    "kl": 6.491835711130989e-05
+  },
+  {
+    "step": 30,
+    "id": "c814f157a2751bb4d810",
+    "mean_reward": 0.5499999523162842,
+    "updated": true,
+    "rollouts": [
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 1",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 1.05,
+        "pred": "1",
+        "correct": true,
+        "format_ok": true
+      },
+      {
+        "response": "<reasoning>\nOption 1 is a math problem. I will use math tactic to solve it.\nOption 2 is a logic problem. I will use formal logic tactic to solve it.\nOption 3 is a math problem. I will use math tactic to solve it.\nI have solved all the subproblems, I will aggregate the results and produce the answer\n</reasoning>\nFinal answer: 3",
+        "truncated": false,
+        "tokens": 84,
+        "reward": 0.05,
+        "pred": "3",
+        "correct": false,
+        "format_ok": true
+      }
+    ],
+    "loss": 1.436471939086914e-05,
+    "kl": 0.0007190143805928528
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nAt a bustling amusement park, Turner enthusiastically plans his day, aspiring to ride the rollercoaster 3 times, interspersed with trips on the Catapult 2 times and a tranquil round on the Ferris wheel once, ensuring a thrilling experience. Each amusement ride invites adventure, with the rollercoaster and the Catapult each demanding 4 tickets, while the Ferris wheel requires just 1 ticket for a gentle rotation, providing a serene contrast.\n\nMeanwhile, far removed from the dizzying heights of rollercoaster rails, Camila reflects on her hiking experiences, tallying a modest 7 hikes in her lifetime. This number is significantly dwarfed by Amanda’s adventures, who has ventured out on 8 times as many hikes as Camila, accumulating an impressive total. Not to be outdone, Steven adds his own mark, having gone on 15 more hikes than Amanda, each step mapping out his extensive engagement with the great outdoors. This juxtaposition of adrenaline-infused amusement rides and the peaceful, grounding activity of hiking paints a vivid picture of varied lifestyles and choices.\n\n### Statements:\n1. Turner needs 21 tickets.\n2. If Camila plans to go on 4 hikes a week, it would take her 15 weeks to hike as many times as Steven.",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nAt a bustling amusement park, Turner enthusiastically plans his day, aspiring to ride the rollercoaster 3 times, interspersed with trips on the Catapult 2 times and a tranquil round on the Ferris wheel once, ensuring a thrilling experience. Each amusement ride invites adventure, with the rollercoaster and the Catapult each demanding 4 tickets, while the Ferris wheel requires just 1 ticket for a gentle rotation, providing a serene contrast.\n\nMeanwhile, far removed from the dizzying heights of rollercoaster rails, Camila reflects on her hiking experiences, tallying a modest 7 hikes in her lifetime. This number is significantly dwarfed by Amanda’s adventures, who has ventured out on 8 times as many hikes as Camila, accumulating an impressive total. Not to be outdone, Steven adds his own mark, having gone on 15 more hikes than Amanda, each step mapping out his extensive engagement with the great outdoors. This juxtaposition of adrenaline-infused amusement rides and the peaceful, grounding activity of hiking paints a vivid picture of varied lifestyles and choices.\n\n### Statements:\n1. Turner needs 21 tickets.\n2. If Camila plans to go on 4 hikes a week, it would take her 15 weeks to hike as many times as Steven.\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n3*4 = 12\n2*4 = 8\n1*1 = 1\n12+8+1 = 21\nResult 1: 21\nClaim 1: 21\nVerdict 1: TRUE\n\nStatement 2:\n7*8 = 56\n56+15 = 71\n71-7 = 64\n64/4 = 16\nResult 2: 16\nClaim 2: 15\nVerdict 2: FALSE\n</reasoning>\nFinal answer: 1",
+    "ground_truth": "1",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "21",
+      "2": "16"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "3*4",
+        "result": "12"
+      },
+      {
+        "option": "1",
+        "expr": "2*4",
+        "result": "8"
+      },
+      {
+        "option": "1",
+        "expr": "1*1",
+        "result": "1"
+      },
+      {
+        "option": "1",
+        "expr": "12+8+1",
+        "result": "21"
+      },
+      {
+        "option": "2",
+        "expr": "7*8",
+        "result": "56"
+      },
+      {
+        "option": "2",
+        "expr": "56+15",
+        "result": "71"
+      },
+      {
+        "option": "2",
+        "expr": "71-7",
+        "result": "64"
+      },
+      {
+        "option": "2",
+        "expr": "64/4",
+        "result": "16"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nJolene and Phil, having four children whose ages span several years, are quite remarkable, not least because each child shares the same birthday. The saga of their growing family began 15 years ago with the birth of their first child. As Brianna deals with the whimsically unfortunate events surrounding her bag of 24 marbles, the non-stop familial activities parallel her losses and generosity. Amid this, she loses four mariles through a tragic hole in the bag and generously, albeit reluctantly, gives away twice as many marbles as she lost.\n\nIn a twist of events that mirrors the unexpected surprises in Jolene and Phil's life, after their second child arrived just a year following the first, Brianna's adventures with marbles continued as her dog decided to join in, consuming half as many marbles as she had earlier lost. As time moved on, the third child of Jolene and Phil celebrated their arrival on the fourth birthday of the second child, adding more joy but also more complexity to scheduling birthday parties.\n\nWith all children sharing a single birthday, this date became a yearly milestone of exponential joy and chaos, culminating in the arrival of Jolene and Phil's fourth child, two years after the third. Similarly, as Brianna contemplates her diminishing marble collection, she comes to grips with the whimsical losses that seem to mirror the unpredictable but joyful expansions in her own life.\n\n### Statements:\n1. The fourth child is 8 years old.\n2. Brianna has 9 marbles remaining",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nJolene and Phil, having four children whose ages span several years, are quite remarkable, not least because each child shares the same birthday. The saga of their growing family began 15 years ago with the birth of their first child. As Brianna deals with the whimsically unfortunate events surrounding her bag of 24 marbles, the non-stop familial activities parallel her losses and generosity. Amid this, she loses four mariles through a tragic hole in the bag and generously, albeit reluctantly, gives away twice as many marbles as she lost.\n\nIn a twist of events that mirrors the unexpected surprises in Jolene and Phil's life, after their second child arrived just a year following the first, Brianna's adventures with marbles continued as her dog decided to join in, consuming half as many marbles as she had earlier lost. As time moved on, the third child of Jolene and Phil celebrated their arrival on the fourth birthday of the second child, adding more joy but also more complexity to scheduling birthday parties.\n\nWith all children sharing a single birthday, this date became a yearly milestone of exponential joy and chaos, culminating in the arrival of Jolene and Phil's fourth child, two years after the third. Similarly, as Brianna contemplates her diminishing marble collection, she comes to grips with the whimsical losses that seem to mirror the unpredictable but joyful expansions in her own life.\n\n### Statements:\n1. The fourth child is 8 years old.\n2. Brianna has 9 marbles remaining\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n15 = 15\n15-1 = 14\nResult 1: 8\nClaim 1: 8\nVerdict 1: TRUE\n\nStatement 2:\n2*4 = 8\n4/2 = 2\n24-4-8-2 = 10\nResult 2: 10\nClaim 2: 9\nVerdict 2: FALSE\n</reasoning>\nFinal answer: 1",
+    "ground_truth": "1",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "8",
+      "2": "10"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "15",
+        "result": "15"
+      },
+      {
+        "option": "1",
+        "expr": "15-1",
+        "result": "14"
+      },
+      {
+        "option": "2",
+        "expr": "2*4",
+        "result": "8"
+      },
+      {
+        "option": "2",
+        "expr": "4/2",
+        "result": "2"
+      },
+      {
+        "option": "2",
+        "expr": "24-4-8-2",
+        "result": "10"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nPaul's grades last semester were very bad, prompting his dad to devise a motivational scheme. His dad promised him $5 for every B+ and twice that amount for every A to improve his academic performance. Similarly, there's an interesting scene happening in town; Mary sees a flock of ducks crossing the street. The ducks group diversely, with 2 ducks shepherding 5 ducklings each, while 6 others manage 3 ducklings each, and a further 9 ducks take charge of 6 ducklings each. \n\nIn terms of a bonus incentive, if Paul achieves at least two A+ grades, the rewards from his dad will double, and additionally, he'll receive a flat $15 for every A+ without any extra bonuses. The multiplicity and diversity of duck families mirror the layered incentives Paul's dad uses to boost Paul's academic pursuits. These contrasting scenes of natural simplicity and structured academic motivation blend to emphasize the importance of guidance and reward in various contexts.\n\n### Statements:\n1. If there are 10 courses with grades in Paul's scorecard, the maximum amount he could receive from his dad is $187.\n2. There are total 99 ducks and ducklings.",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nPaul's grades last semester were very bad, prompting his dad to devise a motivational scheme. His dad promised him $5 for every B+ and twice that amount for every A to improve his academic performance. Similarly, there's an interesting scene happening in town; Mary sees a flock of ducks crossing the street. The ducks group diversely, with 2 ducks shepherding 5 ducklings each, while 6 others manage 3 ducklings each, and a further 9 ducks take charge of 6 ducklings each. \n\nIn terms of a bonus incentive, if Paul achieves at least two A+ grades, the rewards from his dad will double, and additionally, he'll receive a flat $15 for every A+ without any extra bonuses. The multiplicity and diversity of duck families mirror the layered incentives Paul's dad uses to boost Paul's academic pursuits. These contrasting scenes of natural simplicity and structured academic motivation blend to emphasize the importance of guidance and reward in various contexts.\n\n### Statements:\n1. If there are 10 courses with grades in Paul's scorecard, the maximum amount he could receive from his dad is $187.\n2. There are total 99 ducks and ducklings.\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n2*5 = 10\n5*2 = 10\n2*10 = 20\n10-2 = 8\n30+160 = 190\nResult 1: 190\nClaim 1: 10\nVerdict 1: FALSE\n\nStatement 2:\n2*5 = 10\n6*3 = 18\n9*6 = 54\n10+18+54+2+6+9 = 99\nResult 2: 99\nClaim 2: 99\nVerdict 2: TRUE\n</reasoning>\nFinal answer: 2",
+    "ground_truth": "2",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "190",
+      "2": "99"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "2*5",
+        "result": "10"
+      },
+      {
+        "option": "1",
+        "expr": "5*2",
+        "result": "10"
+      },
+      {
+        "option": "1",
+        "expr": "2*10",
+        "result": "20"
+      },
+      {
+        "option": "1",
+        "expr": "10-2",
+        "result": "8"
+      },
+      {
+        "option": "1",
+        "expr": "30+160",
+        "result": "190"
+      },
+      {
+        "option": "2",
+        "expr": "2*5",
+        "result": "10"
+      },
+      {
+        "option": "2",
+        "expr": "6*3",
+        "result": "18"
+      },
+      {
+        "option": "2",
+        "expr": "9*6",
+        "result": "54"
+      },
+      {
+        "option": "2",
+        "expr": "10+18+54+2+6+9",
+        "result": "99"
+      }
+    ]
+  },
+  {
+    "question": "Read the context and choose the correct statment.\n\n### Context:\nA large puzzle is priced at $15, but when combined with a small puzzle, the total cost amounts to $23. As pricing puzzles occupy the mind, Fatemia contemplates her piece of cloth, which measures 100 square inches. She resolves to divide it equally, with half intended for donation and the other half for personal use. The strategic division of a simple cloth mirrors the calculation required to discern the value of puzzles in a transaction.\n\n### Statements:\n1. You would pay $37 for 1 large and 3 small puzzles.\n2. If Fatima repeats the process of cutting and donating half of the cloth 2 times, she will have donated 75 square inches of cloth.",
+    "prompt": "Read the context and choose the correct statment.\n\n### Context:\nA large puzzle is priced at $15, but when combined with a small puzzle, the total cost amounts to $23. As pricing puzzles occupy the mind, Fatemia contemplates her piece of cloth, which measures 100 square inches. She resolves to divide it equally, with half intended for donation and the other half for personal use. The strategic division of a simple cloth mirrors the calculation required to discern the value of puzzles in a transaction.\n\n### Statements:\n1. You would pay $37 for 1 large and 3 small puzzles.\n2. If Fatima repeats the process of cutting and donating half of the cloth 2 times, she will have donated 75 square inches of cloth.\n\nSolve each statement carefully using checkable mathematical reasoning.\nPlace your step-by-step work inside <reasoning>...</reasoning>.\nFor each statement i, show key calculations and write Result i: VALUE, then determine whether the statement is true or false.\nOnly AFTER finishing the reasoning, output one final line: Final answer: N\nN is the number of the one correct statement. Do not repeat the question.\n\nSolution:\n",
+    "completion": "<reasoning>\nStatement 1:\n23-15 = 8\n8*3 = 24\n24+15 = 39\nResult 1: 39\nClaim 1: 3\nVerdict 1: FALSE\n\nStatement 2:\n100/2 = 50\n50/2 = 25\n50+25 = 75\nResult 2: 75\nClaim 2: 75\nVerdict 2: TRUE\n</reasoning>\nFinal answer: 2",
+    "ground_truth": "2",
+    "n_options": 2,
+    "qtype": "gg",
+    "option_gold_results": {
+      "1": "39",
+      "2": "75"
+    },
+    "verified_equations": [
+      {
+        "option": "1",
+        "expr": "23-15",
+        "result": "8"
+      },
+      {
+        "option": "1",
+        "expr": "8*3",
+        "result": "24"
+      },
+      {
+        "option": "1",
+        "expr": "24+15",
+        "result": "39"
+      },
+      {
+        "option": "2",
+        "expr": "100/2",
+        "result": "50"
+      },
+      {
+        "option": "2",
+        "expr": "50/2",
+        "result": "25"
+      },
+      {
+        "option": "2",
+        "expr": "50+25",
+        "result": "75"
+      }
+    ]
+  }
+]
